@@ -5,7 +5,20 @@
     list-style: none;
     font-family: 'Nunito', sans-serif;
 }
-
+.button {
+    display: block;
+    position: absolute;
+    height: 2.5rem;
+    padding-top: 0.5rem;
+    width: 15rem;
+    text-align: center;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 body{
     background-color: #1b2d31;
 }
