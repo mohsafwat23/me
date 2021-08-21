@@ -48,11 +48,10 @@ body {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    background: white;
   }
   
   /* The Close Button */
@@ -61,6 +60,7 @@ body {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    padding: 0.5rem 0.5rem;
   }
   
   .close:hover,
@@ -69,6 +69,35 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+
+  .main-content{
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+  .left-section{
+    grid-column: span 3;
+    height: 100%;
+  }
+
+  .left-content{
+    padding: 0.5rem 0.5rem;
+}
+
+.left-content img{
+  width: 100%;
+}
+
+  .right-section{
+    grid-column: span 4;
+    height: 100%;
+}
+
+.right-content{
+  padding: 2rem 3rem;
+}
 
 section {
     text-align: center;
